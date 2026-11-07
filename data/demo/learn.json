@@ -1,0 +1,32 @@
+{
+  "rules": [
+    {
+      "rule": "For hook tests, build the new opening from existing demo footage, for example a tight crop on one hand pulling out one pair, and leave the scenes after it untouched.",
+      "why": "The team approved the reused-footage hook because it ships today and asked for more like it."
+    },
+    {
+      "rule": "Shoot any new hook footage as a single take at home with no split screens or composite layouts.",
+      "why": "The split-screen before/after hook was rejected as too much production for a hook test."
+    },
+    {
+      "rule": "Try opening hooks with a direct question to the viewer over a still or held frame of existing footage, such as the full orphan-sock basket.",
+      "why": "Reviewers said a direct question works with the sound off and costs nothing to make."
+    },
+    {
+      "rule": "Keep voiceover energy warm and upbeat so using SockLock feels easy, not like a chore.",
+      "why": "The deadpan tired-parent revoice was rejected because it made the product feel like a chore."
+    },
+    {
+      "rule": "For new angles, tie the problem to a concrete parent deadline from daily life, like the 7:40 school bus, and keep the locked demo, mechanism, basket and offer scenes.",
+      "why": "The school-bus deadline was approved because it adds real urgency for parents, our biggest audience."
+    },
+    {
+      "rule": "For new-creator tests, pick a creator type we can book from the UGC list (such as a dad) and have them voice the whole ad over the reused locked footage.",
+      "why": "The dad version was approved as a real new-creator test that can be booked from the UGC list."
+    },
+    {
+      "rule": "Set up the creator and situation within the first spoken line and keep that line inside the length limit.",
+      "why": "The grandma version was rejected because the setup took too long and the first line ran past the limit."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "summary",
+    "angle",
+    "pain_point",
+    "emotional_trigger",
+    "proof",
+    "offer_cta",
+    "elements",
+    "mod_ideas",
+    "fixes"
+  ],
+  "properties": {
+    "summary": {
+      "type": "string",
+      "description": "One or two sentences: why this ad works"
+    },
+    "angle": {
+      "type": "string"
+    },
+    "pain_point": {
+      "type": "string"
+    },
+    "emotional_trigger": {
+      "type": "string"
+    },
+    "proof": {
+      "type": "string"
+    },
+    "offer_cta": {
+      "type": "string"
+    },
+    "elements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "scene",
+          "field",
+          "role",
+          "lock",
+          "why"
+        ],
+        "properties": {
+          "scene": {
+            "type": "integer"
+          },
+          "field": {
+            "type": "string",
+            "enum": [
+              "visual",
+              "voiceover",
+              "on_screen_text"
+            ]
+          },
+          "role": {
+            "type": "string",
+            "description": "hook, pain, mechanism, demo, proof, offer, cta or other"
+          },
+          "lock": {
+            "type": "boolean"
+          },
+          "why": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "mod_ideas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "mod_type",
+          "idea"
+        ],
+        "properties": {
+          "mod_type": {
+            "type": "string",
+            "enum": [
+              "hook",
+              "recut",
+              "revoice",
+              "ending",
+              "new_angle",
+              "new_creator"
+            ]
+          },
+          "idea": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "fixes": {
+      "type": "array",
+      "description": "Cells of the original that state something not in the brand facts or offer, with corrected text",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "scene",
+          "field",
+          "text",
+          "why"
+        ],
+        "properties": {
+          "scene": {
+            "type": "integer"
+          },
+          "field": {
+            "type": "string",
+            "enum": [
+              "visual",
+              "voiceover",
+              "on_screen_text"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "description": "The corrected cell, same voice and length"
+          },
+          "why": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

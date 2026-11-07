@@ -1,0 +1,9 @@
+[
+  { "index": 0, "verdict": "approve", "reason": "Reuses our demo footage as the opening. Ships today, more hooks like this." },
+  { "index": 1, "verdict": "approve", "reason": "A direct question works with the sound off and costs nothing to make." },
+  { "index": 2, "verdict": "reject", "reason": "Split-screen is too much production for a hook test. Hooks should be one take at home." },
+  { "index": 4, "verdict": "reject", "reason": "The tired deadpan voice makes the product feel like a chore. Keep the energy warm." },
+  { "index": 6, "verdict": "approve", "reason": "The school-bus deadline adds real urgency for parents, our biggest group." },
+  { "index": 8, "verdict": "approve", "reason": "A real new-creator test. Book a dad from our UGC list." },
+  { "index": 9, "verdict": "reject", "reason": "The grandma setup takes too long; the first line runs past the limit." }
+]

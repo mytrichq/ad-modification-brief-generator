@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "scenes"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "scene",
+          "time",
+          "visual",
+          "voiceover",
+          "on_screen_text"
+        ],
+        "properties": {
+          "scene": {
+            "type": "integer"
+          },
+          "time": {
+            "type": "string",
+            "description": "Time range like 0-3s"
+          },
+          "visual": {
+            "type": "string"
+          },
+          "voiceover": {
+            "type": "string"
+          },
+          "on_screen_text": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

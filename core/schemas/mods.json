@@ -1,0 +1,130 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "mods"
+  ],
+  "properties": {
+    "mods": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "mod_type",
+          "title",
+          "hypothesis",
+          "read_metric",
+          "changes_summary",
+          "direction",
+          "scenes"
+        ],
+        "properties": {
+          "mod_type": {
+            "type": "string",
+            "enum": [
+              "hook",
+              "recut",
+              "revoice",
+              "ending",
+              "new_angle",
+              "new_creator"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "hypothesis": {
+            "type": "string"
+          },
+          "read_metric": {
+            "type": "string",
+            "enum": [
+              "hook_rate",
+              "ctr",
+              "cpa",
+              "completion_rate"
+            ],
+            "description": "The metric that decides this test"
+          },
+          "changes_summary": {
+            "type": "string"
+          },
+          "direction": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "talent",
+              "location",
+              "voice",
+              "music",
+              "captions"
+            ],
+            "properties": {
+              "talent": {
+                "type": "string",
+                "description": "Who is on camera; 'same as original' if unchanged"
+              },
+              "location": {
+                "type": "string"
+              },
+              "voice": {
+                "type": "string",
+                "description": "Voice, tone and pace of the VO"
+              },
+              "music": {
+                "type": "string"
+              },
+              "captions": {
+                "type": "string",
+                "description": "Caption style"
+              }
+            }
+          },
+          "scenes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "scene",
+                "time",
+                "visual",
+                "voiceover",
+                "on_screen_text",
+                "footage"
+              ],
+              "properties": {
+                "scene": {
+                  "type": "integer"
+                },
+                "time": {
+                  "type": "string",
+                  "description": "Time range like 0-3s"
+                },
+                "visual": {
+                  "type": "string"
+                },
+                "voiceover": {
+                  "type": "string"
+                },
+                "on_screen_text": {
+                  "type": "string"
+                },
+                "footage": {
+                  "type": "string",
+                  "enum": [
+                    "reuse",
+                    "trim",
+                    "new"
+                  ],
+                  "description": "reuse = original shot as is, trim = original shot shortened or re-timed, new = needs a new shot"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

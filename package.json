@@ -1,0 +1,15 @@
+{
+  "name": "ad-modification-brief-generator",
+  "version": "0.1.0",
+  "description": "Internal SockLock MarTech tool: turns winning ads into checked, production-ready modification briefs.",
+  "type": "module",
+  "bin": { "ad-mod-brief": "cli/ad-mod-brief.js" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "demo": "node cli/ad-mod-brief.js demo",
+    "ui": "node cli/ad-mod-brief.js ui",
+    "ads-csv": "node data/generate-ads.js"
+  },
+  "license": "MIT"
+}

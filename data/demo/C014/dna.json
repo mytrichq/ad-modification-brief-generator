@@ -1,0 +1,176 @@
+{
+  "summary": "The ad wins because it opens on a payoff you can see with the sound off: a mountain of laundry where every sock is already paired. It then shows the cuff click that makes it happen and ends on a relatable little victory, the six-year orphan basket going into the trash. Only after that does it show the low-risk $29 offer.",
+  "angle": "A speed demo. Putting away a whole family's socks becomes a grab-and-toss, because every pair comes out of the wash together.",
+  "pain_point": "Matching socks for a whole family takes forever, and the basket of single socks never goes away.",
+  "emotional_trigger": "Relief and a bit of 'finally' satisfaction: one of the most tedious chores just disappears. Dumping the orphan basket adds a cathartic laugh at herself.",
+  "proof": "The proof is shown, not told: pairs come out of a real laundry pile already joined, she clicks a cuff on camera, and the basket she kept for years goes in the trash.",
+  "offer_cta": "5 pairs for $29, then a new delivery every quarter. Take the quiz to choose sizes for every adult and kid.",
+  "elements": [
+    {
+      "scene": 1,
+      "field": "visual",
+      "role": "hook",
+      "lock": false,
+      "why": "The overhead laundry mountain with pairs already joined is a strong sound-off opener. But this is the opening frame, so test other first images, e.g. a tighter shot on one pair being pulled out."
+    },
+    {
+      "scene": 1,
+      "field": "voiceover",
+      "role": "hook",
+      "lock": false,
+      "why": "The challenge format ('watch me…') makes people stay to see the result. It is the first line, so test it. Use the corrected text from fixes: the 'ten seconds' claim isn't shown in real time."
+    },
+    {
+      "scene": 1,
+      "field": "on_screen_text",
+      "role": "hook",
+      "lock": false,
+      "why": "This sets up the challenge for sound-off viewers. Test the wording, but drop 'Timer on' (see fixes)."
+    },
+    {
+      "scene": 2,
+      "field": "visual",
+      "role": "demo",
+      "lock": true,
+      "why": "This is the core demo: pair after pair goes into the drawer with zero sorting. It's the visual proof the whole ad stands on, so keep the grab-and-toss rhythm."
+    },
+    {
+      "scene": 2,
+      "field": "voiceover",
+      "role": "mechanism",
+      "lock": true,
+      "why": "It states the outcome (pairs come out of the wash together) in plain, concrete words that match the brand facts. Keep it word for word."
+    },
+    {
+      "scene": 2,
+      "field": "on_screen_text",
+      "role": "demo",
+      "lock": false,
+      "why": "It labels the demo for viewers watching muted. Short and clear, but the wording can be tested."
+    },
+    {
+      "scene": 3,
+      "field": "visual",
+      "role": "mechanism",
+      "lock": true,
+      "why": "The cuff pull-apart and click close-up answers 'how?'. Without it, the demo looks like a trick."
+    },
+    {
+      "scene": 3,
+      "field": "voiceover",
+      "role": "mechanism",
+      "lock": true,
+      "why": "It explains the mechanism exactly as the brand facts do: a magnet in each cuff, click before the wash. Don't paraphrase it."
+    },
+    {
+      "scene": 3,
+      "field": "on_screen_text",
+      "role": "mechanism",
+      "lock": true,
+      "why": "It's the only place the user's one action (click before the wash) is readable with the sound off. Keep it so muted viewers get the mechanism."
+    },
+    {
+      "scene": 4,
+      "field": "visual",
+      "role": "proof",
+      "lock": true,
+      "why": "Tipping the orphan basket into the trash is the emotional payoff and the most shareable image in the ad. It makes the benefit feel final."
+    },
+    {
+      "scene": 4,
+      "field": "voiceover",
+      "role": "pain",
+      "lock": false,
+      "why": "'Six years' is a concrete personal detail and gives the self-irony. Keep the idea, but each creator should use their own true number and story."
+    },
+    {
+      "scene": 4,
+      "field": "on_screen_text",
+      "role": "proof",
+      "lock": false,
+      "why": "'Retired: the orphan basket' is a witty caption. The wording can be tested, e.g. 'Bye, single-sock basket'."
+    },
+    {
+      "scene": 5,
+      "field": "visual",
+      "role": "offer",
+      "lock": true,
+      "why": "Showing adult and kid sizes side by side ties the offer to the family-of-four setup and sets up the quiz CTA."
+    },
+    {
+      "scene": 5,
+      "field": "voiceover",
+      "role": "offer",
+      "lock": true,
+      "why": "The exact approved offer line: 5 pairs for $29, then new ones every quarter. Don't change the price or cadence."
+    },
+    {
+      "scene": 5,
+      "field": "on_screen_text",
+      "role": "offer",
+      "lock": true,
+      "why": "The approved price, so muted viewers can read it. Keep it word for word."
+    },
+    {
+      "scene": 6,
+      "field": "visual",
+      "role": "cta",
+      "lock": false,
+      "why": "The direct point to camera works, but the ending can be tested, e.g. her hand tapping a phone showing the quiz."
+    },
+    {
+      "scene": 6,
+      "field": "voiceover",
+      "role": "cta",
+      "lock": false,
+      "why": "It sends people to the quiz, as required, and gives them a reason (sizes for everyone). The wording can be tested as long as the quiz stays the destination."
+    },
+    {
+      "scene": 6,
+      "field": "on_screen_text",
+      "role": "cta",
+      "lock": false,
+      "why": "A clear quiz CTA. Test the phrasing, but it must always point to the quiz."
+    }
+  ],
+  "fixes": [
+    {
+      "scene": 1,
+      "field": "voiceover",
+      "text": "Watch me put away socks for a family of four without matching a single pair.",
+      "why": "'In ten seconds' is a timed performance claim that isn't in the brand facts, and the quick cuts in scene 2 mean the ten seconds isn't actually shown. The new line keeps the challenge hook using the approved benefit (no matching). Unlocked: still the hook, still testable."
+    },
+    {
+      "scene": 1,
+      "field": "on_screen_text",
+      "text": "Socks for 4. Zero matching.",
+      "why": "'Timer on' supports the same unproven ten-second claim. The new text keeps the challenge framing and states only what the demo shows. Unlocked: test the wording."
+    }
+  ],
+  "mod_ideas": [
+    {
+      "mod_type": "hook",
+      "idea": "Open cold on scene 4's visual: the orphan basket tipping into the trash, with the line 'I just threw out six years of single socks.' Then cut to the laundry mountain to show why. Keep scenes 2, 3 and 5 as locked."
+    },
+    {
+      "mod_type": "recut",
+      "idea": "A 15-second cutdown: scene 1 (corrected hook), scene 2 trimmed to 3 grab-and-toss shots, the scene 3 click close-up, scene 5 offer, scene 6 CTA. Drop scene 4 to test whether the demo plus mechanism carry it alone."
+    },
+    {
+      "mod_type": "revoice",
+      "idea": "Same footage with a drier, deadpan read: 'This is the laundry for four people. Watch the socks.' Locked lines in scenes 2, 3 and 5 stay word for word. Only the hook, the scene 4 line and the CTA change tone."
+    },
+    {
+      "mod_type": "ending",
+      "idea": "Replace the point-to-camera with her clicking one last kid-size pair together and holding it up next to an adult pair, VO 'Take the quiz and pick sizes for the whole family.' On-screen: 'Take the quiz →'."
+    },
+    {
+      "mod_type": "new_angle",
+      "idea": "A 'before the wash' angle: open on the hamper, with her clicking pairs together as she drops them in ('Ten seconds now saves the whole matching session later'). Then the same scene 2 demo out of the dryer. Uses only the click-before-wash fact."
+    },
+    {
+      "mod_type": "new_creator",
+      "idea": "A dad, or a young professional living with a roommate, does the same challenge with their own true orphan-sock story in scene 4. The demo, mechanism and offer lines stay locked. Only the setup and personal detail change."
+    }
+  ]
+}

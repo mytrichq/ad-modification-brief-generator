@@ -1,0 +1,33 @@
+{
+  "brand": "SockLock",
+  "product": "Magnetic socks that don't get lost in the washing machine. A tiny magnet in each cuff clicks the pair together before it goes in the wash.",
+  "market": "US",
+  "audience": "US adults 25-55 who do the household laundry: busy parents, young professionals, people tired of mismatched socks.",
+  "funnel": "Ad -> web quiz (size, preferences) -> personal offer -> checkout. Every CTA must send people to the quiz.",
+  "facts": [
+    "A small magnet in each cuff holds the pair together.",
+    "You click the pair together before putting it in the wash; it comes out of the washing machine as a pair.",
+    "Subscription: the first delivery is 5 pairs for $29.",
+    "After that, a new delivery arrives once a quarter.",
+    "Sizes are chosen in the quiz, for adults and kids."
+  ],
+  "offer": {
+    "price_usd": 29,
+    "pairs": 5,
+    "cadence": "a new delivery every quarter",
+    "say_it_like": ["5 pairs for $29", "five pairs for twenty-nine dollars"]
+  },
+  "tone": "Conversational UGC: a real person talking to camera, light self-irony about laundry chaos, concrete details instead of adjectives. People scroll fast, so every first line must make sense without sound.",
+  "banned_claims": [
+    { "id": "medical", "pattern": "\\b(cure[sd]?|heal(s|ing)?|therapeutic|medical|circulation|blisters?|antibacterial|antimicrobial|odou?r[- ]free|doctor[- ]recommended|fda)\\b", "reason": "Health and medical claims are not confirmed for this product." },
+    { "id": "absolute", "pattern": "\\b(guarantee[sd]?|100\\s?%|lifetime|forever|indestructible)\\b", "reason": "Absolute promises and guarantees are not confirmed." },
+    { "id": "offer_terms", "pattern": "\\b(free shipping|for free|free trial|cancel anytime|money[- ]back|refund|\\d+\\s?% off|discount)\\b", "reason": "These offer terms are not part of the confirmed offer." },
+    { "id": "safety", "pattern": "\\b(safe for (everyone|all|kids|babies)|completely safe|totally safe|pacemakers?)\\b", "reason": "Safety claims about magnets need legal review." },
+    { "id": "competitors", "pattern": "\\b(bombas|happy socks|stance|hanes)\\b", "reason": "Do not name competitors." }
+  ],
+  "limits": {
+    "hook_voiceover_words_max": 14,
+    "on_screen_text_words_max": 8,
+    "cutdown_seconds_max": 15
+  }
+}

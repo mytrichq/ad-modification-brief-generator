@@ -1,0 +1,636 @@
+{
+  "mods": [
+    {
+      "mod_type": "hook",
+      "title": "One Pair, Tight Pull",
+      "hypothesis": "If we open on a tight close-up of one sock pulled from the pile with its pair still attached, then more viewers will stop scrolling, because one clear 'wait, they're stuck together?' moment reads faster on a phone screen than a wide laundry mountain.",
+      "read_metric": "hook_rate",
+      "changes_summary": "Scene 1 only: crop the original overhead shot tight on one hand pulling one pair out, new VO and text. Scenes 2-6 untouched.",
+      "direction": {
+        "talent": "same as original",
+        "location": "same as original",
+        "voice": "same as original",
+        "music": "same as original",
+        "captions": "same as original"
+      },
+      "scenes": [
+        {
+          "scene": 1,
+          "time": "0-3s",
+          "visual": "Tight crop of the original overhead shot: one hand pulls a single sock out of the laundry pile and its pair comes up with it, still clicked together",
+          "voiceover": "I pulled one sock out of the wash. Its pair came with it.",
+          "on_screen_text": "One sock out. Two come with it.",
+          "footage": "trim"
+        },
+        {
+          "scene": 2,
+          "time": "3-8s",
+          "visual": "Quick cuts: she grabs pair after pair and tosses them into an open drawer",
+          "voiceover": "No matching, no pile of singles. They come out of the wash already together.",
+          "on_screen_text": "Already in pairs",
+          "footage": "reuse"
+        },
+        {
+          "scene": 3,
+          "time": "8-13s",
+          "visual": "Close-up: she pulls two cuffs apart and clicks them back together",
+          "voiceover": "There's a small magnet in each cuff. You click the pair before the wash.",
+          "on_screen_text": "Click before the wash",
+          "footage": "reuse"
+        },
+        {
+          "scene": 4,
+          "time": "13-18s",
+          "visual": "A basket of single socks on top of the dryer, she tips it into the trash",
+          "voiceover": "This basket of single socks sat on my dryer for six years.",
+          "on_screen_text": "Retired: the orphan basket",
+          "footage": "reuse"
+        },
+        {
+          "scene": 5,
+          "time": "18-23s",
+          "visual": "A box with 5 pairs on the bed, adult and kid sizes side by side",
+          "voiceover": "You start with five pairs for twenty-nine dollars, then new ones every quarter.",
+          "on_screen_text": "5 pairs for $29",
+          "footage": "reuse"
+        },
+        {
+          "scene": 6,
+          "time": "23-27s",
+          "visual": "She looks up and points at the camera",
+          "voiceover": "Take the quiz. It sorts out the sizes for everyone.",
+          "on_screen_text": "Take the quiz →",
+          "footage": "reuse"
+        }
+      ]
+    },
+    {
+      "mod_type": "hook",
+      "title": "Count Your Single Socks",
+      "hypothesis": "If we open on the overflowing orphan basket and ask viewers to count their own single socks, then hook rate will rise, because a question about their own laundry pulls them in before they know it's an ad.",
+      "read_metric": "hook_rate",
+      "changes_summary": "Scene 1 only: open on a freeze/hold of the full orphan basket (first frames of the scene 4 shot) with a direct question. Scenes 2-6 untouched.",
+      "direction": {
+        "talent": "same as original",
+        "location": "same as original",
+        "voice": "same as original; first line asked as a playful, knowing question",
+        "music": "same as original",
+        "captions": "same as original"
+      },
+      "scenes": [
+        {
+          "scene": 1,
+          "time": "0-3s",
+          "visual": "Opening frames of the scene 4 shot, held: the overflowing basket of single socks on top of the dryer, slow push-in, before she tips it",
+          "voiceover": "Be honest. How many single socks are in your basket right now?",
+          "on_screen_text": "Be honest: count your single socks",
+          "footage": "trim"
+        },
+        {
+          "scene": 2,
+          "time": "3-8s",
+          "visual": "Quick cuts: she grabs pair after pair and tosses them into an open drawer",
+          "voiceover": "No matching, no pile of singles. They come out of the wash already together.",
+          "on_screen_text": "Already in pairs",
+          "footage": "reuse"
+        },
+        {
+          "scene": 3,
+          "time": "8-13s",
+          "visual": "Close-up: she pulls two cuffs apart and clicks them back together",
+          "voiceover": "There's a small magnet in each cuff. You click the pair before the wash.",
+          "on_screen_text": "Click before the wash",
+          "footage": "reuse"
+        },
+        {
+          "scene": 4,
+          "time": "13-18s",
+          "visual": "A basket of single socks on top of the dryer, she tips it into the trash",
+          "voiceover": "This basket of single socks sat on my dryer for six years.",
+          "on_screen_text": "Retired: the orphan basket",
+          "footage": "reuse"
+        },
+        {
+          "scene": 5,
+          "time": "18-23s",
+          "visual": "A box with 5 pairs on the bed, adult and kid sizes side by side",
+          "voiceover": "You start with five pairs for twenty-nine dollars, then new ones every quarter.",
+          "on_screen_text": "5 pairs for $29",
+          "footage": "reuse"
+        },
+        {
+          "scene": 6,
+          "time": "23-27s",
+          "visual": "She looks up and points at the camera",
+          "voiceover": "Take the quiz. It sorts out the sizes for everyone.",
+          "on_screen_text": "Take the quiz →",
+          "footage": "reuse"
+        }
+      ]
+    },
+    {
+      "mod_type": "hook",
+      "title": "Before and After Split",
+      "hypothesis": "If we open on a split screen of loose socks being matched one by one next to pairs coming out already joined, then hook rate will rise, because the contrast shows the payoff in one frame with no sound or reading needed.",
+      "read_metric": "hook_rate",
+      "changes_summary": "Scene 1 only: vertical split screen. Left is a new shot of her matching loose socks on the bed, right is the original overhead pairs shot. Scenes 2-6 untouched.",
+      "direction": {
+        "talent": "same as original",
+        "location": "same as original (same bed and laundry for both halves)",
+        "voice": "same as original",
+        "music": "same as original",
+        "captions": "same as original, plus small 'BEFORE' / 'NOW' labels on each half"
+      },
+      "scenes": [
+        {
+          "scene": 1,
+          "time": "0-3s",
+          "visual": "Split screen. Left (new shot): she kneels over a bed of loose socks, holding two that don't match. Right (original overhead): she pulls socks from the pile already in pairs",
+          "voiceover": "Left is how I used to do socks. Right is now. Same laundry.",
+          "on_screen_text": "Before vs. now: same family laundry",
+          "footage": "new"
+        },
+        {
+          "scene": 2,
+          "time": "3-8s",
+          "visual": "Quick cuts: she grabs pair after pair and tosses them into an open drawer",
+          "voiceover": "No matching, no pile of singles. They come out of the wash already together.",
+          "on_screen_text": "Already in pairs",
+          "footage": "reuse"
+        },
+        {
+          "scene": 3,
+          "time": "8-13s",
+          "visual": "Close-up: she pulls two cuffs apart and clicks them back together",
+          "voiceover": "There's a small magnet in each cuff. You click the pair before the wash.",
+          "on_screen_text": "Click before the wash",
+          "footage": "reuse"
+        },
+        {
+          "scene": 4,
+          "time": "13-18s",
+          "visual": "A basket of single socks on top of the dryer, she tips it into the trash",
+          "voiceover": "This basket of single socks sat on my dryer for six years.",
+          "on_screen_text": "Retired: the orphan basket",
+          "footage": "reuse"
+        },
+        {
+          "scene": 5,
+          "time": "18-23s",
+          "visual": "A box with 5 pairs on the bed, adult and kid sizes side by side",
+          "voiceover": "You start with five pairs for twenty-nine dollars, then new ones every quarter.",
+          "on_screen_text": "5 pairs for $29",
+          "footage": "reuse"
+        },
+        {
+          "scene": 6,
+          "time": "23-27s",
+          "visual": "She looks up and points at the camera",
+          "voiceover": "Take the quiz. It sorts out the sizes for everyone.",
+          "on_screen_text": "Take the quiz →",
+          "footage": "reuse"
+        }
+      ]
+    },
+    {
+      "mod_type": "recut",
+      "title": "Basket First, 18 Seconds",
+      "hypothesis": "If we open on the orphan basket going into the trash and cut the ad to about 18 seconds, then completion rate will rise, because the most shareable payoff lands in the first second and nothing slows the run to the offer.",
+      "read_metric": "completion_rate",
+      "changes_summary": "Existing footage only: drop scene 1, open on scene 4, then demo, click, offer, and a short CTA. About 18s total.",
+      "direction": {
+        "talent": "same as original",
+        "location": "same as original",
+        "voice": "same as original; faster cuts, no pauses between lines",
+        "music": "same as original, cut to hit the trash tip on the first beat",
+        "captions": "same as original"
+      },
+      "scenes": [
+        {
+          "scene": 4,
+          "time": "0-4s",
+          "visual": "A basket of single socks on top of the dryer, she tips it into the trash",
+          "voiceover": "This basket of single socks sat on my dryer for six years.",
+          "on_screen_text": "Bye, single-sock basket",
+          "footage": "trim"
+        },
+        {
+          "scene": 2,
+          "time": "4-8s",
+          "visual": "Quick cuts: she grabs pair after pair and tosses them into an open drawer",
+          "voiceover": "No matching, no pile of singles. They come out of the wash already together.",
+          "on_screen_text": "Already in pairs",
+          "footage": "trim"
+        },
+        {
+          "scene": 3,
+          "time": "8-12s",
+          "visual": "Close-up: she pulls two cuffs apart and clicks them back together",
+          "voiceover": "There's a small magnet in each cuff. You click the pair before the wash.",
+          "on_screen_text": "Click before the wash",
+          "footage": "trim"
+        },
+        {
+          "scene": 5,
+          "time": "12-16s",
+          "visual": "A box with 5 pairs on the bed, adult and kid sizes side by side",
+          "voiceover": "You start with five pairs for twenty-nine dollars, then new ones every quarter.",
+          "on_screen_text": "5 pairs for $29",
+          "footage": "trim"
+        },
+        {
+          "scene": 6,
+          "time": "16-18s",
+          "visual": "She looks up and points at the camera",
+          "voiceover": "Take the quiz for everyone's sizes.",
+          "on_screen_text": "Take the quiz →",
+          "footage": "trim"
+        }
+      ]
+    },
+    {
+      "mod_type": "revoice",
+      "title": "Deadpan Tired-Parent Voice",
+      "hypothesis": "If we re-voice the same pictures with a dry, deadpan, fast tired-parent delivery and bold word-by-word captions, then hook rate will rise, because self-ironic humor about laundry chaos feels native to the feed and keeps muted viewers reading.",
+      "read_metric": "hook_rate",
+      "changes_summary": "Same pictures and order. New deadpan VO read, tighter open lines, lo-fi beat, bold word-by-word captions, and a cuff-click sound on the first frame.",
+      "direction": {
+        "talent": "same as original",
+        "location": "same as original",
+        "voice": "Same creator (or a similar female voice), deadpan and dry, a bit faster than the original, flat delivery that lands the jokes, no salesy lift",
+        "music": "Low lo-fi hip-hop beat, ducked under VO; a crisp magnet 'click' SFX at 0s and in scene 3",
+        "captions": "Bold white word-by-word kinetic captions with a black outline, centered lower third; on-screen text cards stay at the top"
+      },
+      "scenes": [
+        {
+          "scene": 1,
+          "time": "0-3s",
+          "visual": "Overhead: a mountain of clean laundry dumped on the bed, she pulls socks out of it and they are already in pairs",
+          "voiceover": "Socks for a family of four. Matched: zero. Watch.",
+          "on_screen_text": "Socks for 4. Matched: zero.",
+          "footage": "reuse"
+        },
+        {
+          "scene": 2,
+          "time": "3-8s",
+          "visual": "Quick cuts: she grabs pair after pair and tosses them into an open drawer",
+          "voiceover": "No matching, no pile of singles. They come out of the wash already together.",
+          "on_screen_text": "Grab. Toss. Done.",
+          "footage": "reuse"
+        },
+        {
+          "scene": 3,
+          "time": "8-13s",
+          "visual": "Close-up: she pulls two cuffs apart and clicks them back together",
+          "voiceover": "There's a small magnet in each cuff. You click the pair before the wash.",
+          "on_screen_text": "Click before the wash",
+          "footage": "reuse"
+        },
+        {
+          "scene": 4,
+          "time": "13-18s",
+          "visual": "A basket of single socks on top of the dryer, she tips it into the trash",
+          "voiceover": "Six years this basket lived on my dryer. Goodbye.",
+          "on_screen_text": "Six years. Goodbye.",
+          "footage": "reuse"
+        },
+        {
+          "scene": 5,
+          "time": "18-23s",
+          "visual": "A box with 5 pairs on the bed, adult and kid sizes side by side",
+          "voiceover": "You start with five pairs for twenty-nine dollars, then new ones every quarter.",
+          "on_screen_text": "5 pairs for $29",
+          "footage": "reuse"
+        },
+        {
+          "scene": 6,
+          "time": "23-27s",
+          "visual": "She looks up and points at the camera",
+          "voiceover": "Take the quiz. It handles everyone's sizes.",
+          "on_screen_text": "Take the quiz →",
+          "footage": "reuse"
+        }
+      ]
+    },
+    {
+      "mod_type": "ending",
+      "title": "Quiz On Her Phone",
+      "hypothesis": "If we end on her thumb picking an adult size and then a kid size in the quiz on her phone, then CTR will rise, because seeing the next step makes the quiz feel simple and tied to the whole family.",
+      "read_metric": "ctr",
+      "changes_summary": "Scene 6 only: new close-up of her phone showing the quiz as she taps an adult size and a kid size. Scenes 1-5 untouched.",
+      "direction": {
+        "talent": "same as original (hands only in scene 6)",
+        "location": "same as original (phone held over the same bed and box)",
+        "voice": "same as original",
+        "music": "same as original",
+        "captions": "same as original"
+      },
+      "scenes": [
+        {
+          "scene": 1,
+          "time": "0-3s",
+          "visual": "Overhead: a mountain of clean laundry dumped on the bed, she pulls socks out of it and they are already in pairs",
+          "voiceover": "Watch me put away socks for a family of four without matching a single pair.",
+          "on_screen_text": "Socks for 4. Zero matching.",
+          "footage": "reuse"
+        },
+        {
+          "scene": 2,
+          "time": "3-8s",
+          "visual": "Quick cuts: she grabs pair after pair and tosses them into an open drawer",
+          "voiceover": "No matching, no pile of singles. They come out of the wash already together.",
+          "on_screen_text": "Already in pairs",
+          "footage": "reuse"
+        },
+        {
+          "scene": 3,
+          "time": "8-13s",
+          "visual": "Close-up: she pulls two cuffs apart and clicks them back together",
+          "voiceover": "There's a small magnet in each cuff. You click the pair before the wash.",
+          "on_screen_text": "Click before the wash",
+          "footage": "reuse"
+        },
+        {
+          "scene": 4,
+          "time": "13-18s",
+          "visual": "A basket of single socks on top of the dryer, she tips it into the trash",
+          "voiceover": "This basket of single socks sat on my dryer for six years.",
+          "on_screen_text": "Retired: the orphan basket",
+          "footage": "reuse"
+        },
+        {
+          "scene": 5,
+          "time": "18-23s",
+          "visual": "A box with 5 pairs on the bed, adult and kid sizes side by side",
+          "voiceover": "You start with five pairs for twenty-nine dollars, then new ones every quarter.",
+          "on_screen_text": "5 pairs for $29",
+          "footage": "reuse"
+        },
+        {
+          "scene": 6,
+          "time": "23-28s",
+          "visual": "Close-up over her shoulder: her thumb taps through the SockLock quiz on her phone, picking an adult size, then a kid size, the box of socks blurred in the background",
+          "voiceover": "Adult sizes, kid sizes, all picked in the quiz. Your turn.",
+          "on_screen_text": "Pick everyone's size in the quiz →",
+          "footage": "new"
+        }
+      ]
+    },
+    {
+      "mod_type": "new_angle",
+      "title": "The 7:40 Sock Hunt",
+      "hypothesis": "If we tell the story through the school-morning panic of a kid with one sock and the bus coming, then CTR will rise, because a timed, high-stakes moment every parent knows makes the missing-sock pain urgent, not just tedious.",
+      "read_metric": "ctr",
+      "changes_summary": "New school-morning setup (scene 1) and front-door payoff (scene 6). Locked demo, mechanism, basket and offer scenes reused, with the scene 2 and 4 text and VO reframed around mornings.",
+      "direction": {
+        "talent": "Same creator plus her school-age kid (new shots in scenes 1 and 6)",
+        "location": "Scene 1: hallway by the kid's bedroom with an open sock drawer. Scene 6: the front door. Other scenes same as original",
+        "voice": "Same creator; scene 1 rushed and a bit frazzled, then calm and relieved from scene 2 on",
+        "music": "Ticking-clock percussion under scene 1 that drops out when scene 2 starts, then same as original",
+        "captions": "same as original; a clock-style '7:40' timestamp card in scene 1"
+      },
+      "scenes": [
+        {
+          "scene": 1,
+          "time": "0-3s",
+          "visual": "Handheld in the hallway: her kid stands in one sock holding up a mismatched one while she digs through a drawer of singles, backpack by the door",
+          "voiceover": "Bus in five minutes, and my kid has exactly one sock.",
+          "on_screen_text": "7:40am. One sock. Bus coming.",
+          "footage": "new"
+        },
+        {
+          "scene": 2,
+          "time": "3-8s",
+          "visual": "Quick cuts: she grabs pair after pair and tosses them into an open drawer",
+          "voiceover": "No matching, no pile of singles. They come out of the wash already together.",
+          "on_screen_text": "Every pair ready before the bus",
+          "footage": "reuse"
+        },
+        {
+          "scene": 3,
+          "time": "8-13s",
+          "visual": "Close-up: she pulls two cuffs apart and clicks them back together",
+          "voiceover": "There's a small magnet in each cuff. You click the pair before the wash.",
+          "on_screen_text": "Click before the wash",
+          "footage": "reuse"
+        },
+        {
+          "scene": 4,
+          "time": "13-18s",
+          "visual": "A basket of single socks on top of the dryer, she tips it into the trash",
+          "voiceover": "This basket was where every school-morning sock hunt started.",
+          "on_screen_text": "No more 7:40 sock hunts",
+          "footage": "reuse"
+        },
+        {
+          "scene": 5,
+          "time": "18-23s",
+          "visual": "A box with 5 pairs on the bed, adult and kid sizes side by side",
+          "voiceover": "You start with five pairs for twenty-nine dollars, then new ones every quarter.",
+          "on_screen_text": "5 pairs for $29",
+          "footage": "reuse"
+        },
+        {
+          "scene": 6,
+          "time": "23-28s",
+          "visual": "At the front door her kid pulls on a matching pair and runs out; she turns to camera and points",
+          "voiceover": "Take the quiz. Kid sizes, adult sizes, the whole family.",
+          "on_screen_text": "Take the quiz →",
+          "footage": "new"
+        }
+      ]
+    },
+    {
+      "mod_type": "new_angle",
+      "title": "The Laundromat Ate Them",
+      "hypothesis": "If we tell the story through laundromat days, where socks vanish in shared machines, then CPA will drop, because apartment renters feel the lost-sock pain most and have the clearest reason to buy pairs that come out of the machine together.",
+      "read_metric": "cpa",
+      "changes_summary": "New laundromat setup (scene 1) and laundromat CTA (scene 6). Locked scenes reused; scene 2 and 4 text and VO reframed as 'home from the laundromat'.",
+      "direction": {
+        "talent": "Same creator (new shots in scenes 1 and 6)",
+        "location": "Scene 1 and 6: a laundromat with front-loading machines and a laundry bag. Other scenes same as original (home)",
+        "voice": "Same creator, wry and conversational, a light laugh at the laundromat 'stealing' socks",
+        "music": "Washing-machine hum and dryer rumble ambience under scene 1, then same as original",
+        "captions": "same as original"
+      },
+      "scenes": [
+        {
+          "scene": 1,
+          "time": "0-3s",
+          "visual": "At the laundromat she opens a front loader, pulls out a sock, and its pair comes out clicked to it; she holds it up to camera",
+          "voiceover": "The laundromat ate our socks every week. Watch what comes out now.",
+          "on_screen_text": "The laundromat used to eat our socks",
+          "footage": "new"
+        },
+        {
+          "scene": 2,
+          "time": "3-8s",
+          "visual": "Quick cuts: she grabs pair after pair and tosses them into an open drawer",
+          "voiceover": "No matching, no pile of singles. They come out of the wash already together.",
+          "on_screen_text": "Home from the laundromat, still paired",
+          "footage": "reuse"
+        },
+        {
+          "scene": 3,
+          "time": "8-13s",
+          "visual": "Close-up: she pulls two cuffs apart and clicks them back together",
+          "voiceover": "There's a small magnet in each cuff. You click the pair before the wash.",
+          "on_screen_text": "Click before the wash",
+          "footage": "reuse"
+        },
+        {
+          "scene": 4,
+          "time": "13-18s",
+          "visual": "A basket of single socks on top of the dryer, she tips it into the trash",
+          "voiceover": "Every sock in this basket is one the laundromat kept the other half of.",
+          "on_screen_text": "Laundromat leftovers: in the trash",
+          "footage": "reuse"
+        },
+        {
+          "scene": 5,
+          "time": "18-23s",
+          "visual": "A box with 5 pairs on the bed, adult and kid sizes side by side",
+          "voiceover": "You start with five pairs for twenty-nine dollars, then new ones every quarter.",
+          "on_screen_text": "5 pairs for $29",
+          "footage": "reuse"
+        },
+        {
+          "scene": 6,
+          "time": "23-28s",
+          "visual": "Back at the laundromat, she slings her laundry bag over her shoulder and points at the camera",
+          "voiceover": "Take the quiz before your next laundry day.",
+          "on_screen_text": "Take the quiz before laundry day →",
+          "footage": "new"
+        }
+      ]
+    },
+    {
+      "mod_type": "new_creator",
+      "title": "Dad Does the Socks",
+      "hypothesis": "If a dad tells the same speed-demo story in his own words and home, then CPA will drop, because it reaches parents who don't see themselves in the original and makes the chore feel like anyone in the house can do it.",
+      "read_metric": "cpa",
+      "changes_summary": "New dad UGC shoot for scenes 1, 4 VO and 6; he voices the whole ad. Locked scenes reuse the original footage (scene 4 cropped tight on hands and basket).",
+      "direction": {
+        "talent": "A dad, 35-45, who does his family's laundry (cast a real family of four), casual t-shirt, on camera in scenes 1 and 6; his VO runs over the reused scenes 2-5",
+        "location": "His own home: laundry pile on the living-room couch for scene 1, his kitchen or hallway for scene 6",
+        "voice": "The dad, warm and a bit sheepish, mid-pace, real 'dad humor' with no performance",
+        "music": "same as original",
+        "captions": "same as original"
+      },
+      "scenes": [
+        {
+          "scene": 1,
+          "time": "0-3s",
+          "visual": "Selfie-angle: the dad sits next to a heap of clean laundry on the couch and pulls out sock after sock, each already in a pair",
+          "voiceover": "Dad on laundry duty. Socks for four of us, and I'm matching none.",
+          "on_screen_text": "Dad laundry. Zero matching.",
+          "footage": "new"
+        },
+        {
+          "scene": 2,
+          "time": "3-8s",
+          "visual": "Quick cuts: she grabs pair after pair and tosses them into an open drawer",
+          "voiceover": "No matching, no pile of singles. They come out of the wash already together.",
+          "on_screen_text": "Grab a pair, toss it in",
+          "footage": "reuse"
+        },
+        {
+          "scene": 3,
+          "time": "8-13s",
+          "visual": "Close-up: she pulls two cuffs apart and clicks them back together",
+          "voiceover": "There's a small magnet in each cuff. You click the pair before the wash.",
+          "on_screen_text": "Click before the wash",
+          "footage": "reuse"
+        },
+        {
+          "scene": 4,
+          "time": "13-18s",
+          "visual": "A basket of single socks on top of the dryer, she tips it into the trash",
+          "voiceover": "Our single-sock basket. On the dryer for [his real number] years. Gone.",
+          "on_screen_text": "The single-sock basket: officially retired",
+          "footage": "trim"
+        },
+        {
+          "scene": 5,
+          "time": "18-23s",
+          "visual": "A box with 5 pairs on the bed, adult and kid sizes side by side",
+          "voiceover": "You start with five pairs for twenty-nine dollars, then new ones every quarter.",
+          "on_screen_text": "5 pairs for $29",
+          "footage": "reuse"
+        },
+        {
+          "scene": 6,
+          "time": "23-27s",
+          "visual": "The dad in his kitchen holds up one clicked pair, then points at the camera",
+          "voiceover": "Take the quiz. Sizes for the kids, sizes for you.",
+          "on_screen_text": "Find everyone's size: take the quiz →",
+          "footage": "new"
+        }
+      ]
+    },
+    {
+      "mod_type": "new_creator",
+      "title": "Grandma's Sleepover Laundry",
+      "hypothesis": "If a grandmother tells the story around her grandkids' sleepover laundry, then CPA will drop, because she brings a new, trusted voice and a gift-minded buyer who handles kid and adult socks at once.",
+      "read_metric": "cpa",
+      "changes_summary": "New grandmother UGC shoot for scenes 1, 4 VO and 6; she voices the whole ad. Locked scenes reuse the original footage (scene 4 cropped tight on hands and basket).",
+      "direction": {
+        "talent": "A grandmother, 60-70, who really does laundry for her grandkids, warm and funny, on camera in scenes 1 and 6; her VO runs over the reused scenes 2-5",
+        "location": "Her own home: kitchen table with the laundry pile for scene 1, cozy living room for scene 6",
+        "voice": "The grandmother, warm, unhurried but not slow, gently teasing about the grandkids' socks",
+        "music": "Soft acoustic guitar bed, light and upbeat",
+        "captions": "same as original, slightly larger font for readability"
+      },
+      "scenes": [
+        {
+          "scene": 1,
+          "time": "0-3s",
+          "visual": "She tips a laundry bag of kids' and adults' clothes onto her kitchen table and lifts out socks that are already in pairs, smiling at the camera",
+          "voiceover": "The grandkids slept over. Here's their laundry, and I'm not matching one sock.",
+          "on_screen_text": "Sleepover laundry. Zero matching.",
+          "footage": "new"
+        },
+        {
+          "scene": 2,
+          "time": "3-8s",
+          "visual": "Quick cuts: she grabs pair after pair and tosses them into an open drawer",
+          "voiceover": "No matching, no pile of singles. They come out of the wash already together.",
+          "on_screen_text": "Little pairs, big pairs, all together",
+          "footage": "reuse"
+        },
+        {
+          "scene": 3,
+          "time": "8-13s",
+          "visual": "Close-up: she pulls two cuffs apart and clicks them back together",
+          "voiceover": "There's a small magnet in each cuff. You click the pair before the wash.",
+          "on_screen_text": "Click before the wash",
+          "footage": "reuse"
+        },
+        {
+          "scene": 4,
+          "time": "13-18s",
+          "visual": "A basket of single socks on top of the dryer, she tips it into the trash",
+          "voiceover": "I saved the grandkids' single socks in this basket for [her real number] years.",
+          "on_screen_text": "Grandma's sock basket: emptied",
+          "footage": "trim"
+        },
+        {
+          "scene": 5,
+          "time": "18-23s",
+          "visual": "A box with 5 pairs on the bed, adult and kid sizes side by side",
+          "voiceover": "You start with five pairs for twenty-nine dollars, then new ones every quarter.",
+          "on_screen_text": "5 pairs for $29",
+          "footage": "reuse"
+        },
+        {
+          "scene": 6,
+          "time": "23-27s",
+          "visual": "She sits in her living room, holds up a small kid's pair, then points at the camera",
+          "voiceover": "Take the quiz. It does sizes for grown-ups and little ones.",
+          "on_screen_text": "Take the quiz for every size →",
+          "footage": "new"
+        }
+      ]
+    }
+  ]
+}
